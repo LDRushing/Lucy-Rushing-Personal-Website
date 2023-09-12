@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    background-image: url(https://64.media.tumblr.com/b87a2e4d26557e37ca3b758dc0812390/5e98848e38692035-e3/s1280x1920/44934b982ccc0024aef582907fa5bc069893aa2e.jpg);
+  }
+  
+   h2{
+    background-color: blue;
+    max-width: 960px;
+    color: palegreen;
+    margin: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: .5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .name {
+    float: left;
+  }
+  
+  .links {
+    float: right;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .25em;
+  }
+  
+  .links a:first-of-type {
+    margin-left: 0;
+  }
+  
+  .links a.active {
+    border-bottom: 1px solid #555;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+  }
+  
+  footer .media-link {
+    height: 32px;
+  }
+  
+  footer a {
+    margin-right: 64px;
+    text-decoration: none;
+  }
+  
+  footer a:last-child {
+    margin-right: 0;
+  }
+  
+  header, footer {
+    background-color: cornflowerblue;
+    margin-top: auto;
+  }
