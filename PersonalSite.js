@@ -1,11 +1,15 @@
-//1. Assign arithmetic operators to combination variables (use 'const' to keep your numbers and messages consistently as programmed. They are NOT changing):
-const numAdd = 8 + 2
-const numSubtract =  60 - 20
-const numMultiply = 13 * 3 
-//2. Make a string to combine my user's numbers into one message. Lucy, use the '$' to make the numbers appear! 
-const comboMessage = `${numAdd} - ${numSubtract} - ${numMultiply}`;
-//3. Activate a pop-up box, showing the vault's combination. 
-function lockAlert (){
-    alert(comboMessage)
-}   
-//5. Done! :)
+//Connect this JS with my HTMLs with 'Hello World!' 
+console.log('Hello World!')
+//Make the Home link functional with a 'function' string. 
+onClick: function (HOME) {
+let document.link("Personal1Home.html");
+   }
+//Make the About link functional with a 'function' string. 
+onClick: function (ABOUT) {
+    let document.link("Personal2About.html")
+   }
+//Make the Portfolio link functional with a 'function' string. 
+onClick: function (PORTFOLIO) {
+    let document.link("Personal3Portfolio.html")
+   }
+//Done! :) 
