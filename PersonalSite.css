@@ -1,0 +1,236 @@
+
+h1 {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    background-color: rgb(135, 167, 209);
+  }
+   h2{
+    max-width: 9109px;
+    color: black;
+    margin: 9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  header {
+    font-size: 2rem;
+    position: fixed;
+    text-align: center;
+    text-emphasis-color: rgb(131, 255, 131);
+    text-decoration-color: blue;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: .4em 1em;
+    background-image: url(https://64.media.tumblr.com/b4007100079873dfb6efcef648b406fe/9100cb7a3b9be670-83/s1280x1920/d484c1c4bff242afeba8a6468f1158e8f7ee4e0d.jpg);
+    box-shadow: 0 2px 4px 2px blueviolet; 
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 2px 4px 2px blueviolet;
+  }
+
+  footer a {
+    margin-right: 70px;
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgb(163, 205, 255);
+  }
+  footer a:last-child {
+    margin-right: 0;
+    box-shadow: 0 -2px 4px -2px blueviolet;
+    background-image: url(https://.media.tumblr.com/b4007100079873dfb6efcef648b406fe/9100cb7a3b9be670-83/s1280x1920/d484c1c4bff242afeba8a6468f1158e8f7ee4e0d.jpg);
+  }
+  
+  header {
+    background-image: url(https://64.media.tumblr.com/b4007100079873dfb6efcef648b406fe/9100cb7a3b9be670-83/s1280x1920/d484c1c4bff242afeba8a6468f1158e8f7ee4e0d.jpg);
+
+  }
+  footer {
+    background-image: url(https://64.media.tumblr.com/b4007100079873dfb6efcef648b406fe/9100cb7a3b9be670-83/s1280x1920/d484c1c4bff242afeba8a6468f1158e8f7ee4e0d.jpg);
+  }
+#HomeName {
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+  .About-Me-Container {
+    background-color: rgba(18, 90, 93, 0.509);
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 70px;
+    padding: 5px;
+    height: 420px;
+  }
+  #AboutME {
+    display: flex;
+  }
+  .Headshot {
+    margin-top: 70px;
+    height: fit-content; 
+    border-radius: 15px;
+    height: 300px;
+  }
+.ArtistAndDeveloper {
+  font-size: x-large;
+  padding: 15px;
+  margin-bottom: 70px;
+  margin-right: 4%
+  width: 900px;
+  margin-top: 80px;
+}
+
+span{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color: aliceblue;
+}
+img {
+  width: 300px;
+  display: inline-block;
+  height: auto;
+  padding: .1cm;
+  margin-right: 4%;
+  background-color: rgba(22, 100, 103, 0.588);
+  border-radius: 15px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+blockquote {
+  font-style: italic;
+  position:fixed ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: rgb(0, 83, 29);
+  text-align: end;
+  margin-top: 1%;
+}
+.Halloween2022 > h2 {
+    background-color: rgba(79, 22, 103, 0.509);
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    padding: 5px;
+    height: 42;
+    color: black;
+}
+#ContextHalloween {
+  color: black;
+}
+
+#AmandaHalloween > img {
+  background-color: rgba(58, 17, 83, 0.511);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+}
+#MyGallery {
+  text-align: left;
+  margin-top: 70px;
+  margin-right: 100px;
+}
+.Solitaire > h2 {
+  background-color: rgba(79, 22, 103, 0.509);
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  height: 42;
+  color: black;
+}
+#SomethingYouConsiderRare > img {
+  background-color: rgb(58, 17, 83, 0.52);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+}
+.Sunrise > h2 {
+  background-color: rgba(79, 22, 103, 0.509);
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  height: 42;
+  color: black;
+}
+#TheWorldBeginsAgain > img {
+  background-color: rgb(58, 17, 83, 0.52);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+  margin-bottom: 90px;
+  width: 750px
+}
+.ZooFacts > h2 {
+  background-color: rgba(79, 22, 103, 0.509);
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  height: 42;
+  color: black;
+}
+#CritterFacts > img {
+  background-color: rgb(58, 17, 83, 0.52);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+  margin-bottom: 90px;
+  width: 800px;
+}
+.GroceryList2023 > h2 {
+  background-color: rgba(79, 22, 103, 0.509);
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  height: 42;
+  color: black;
+}
+#Groceries > img {
+  background-color: rgb(58, 17, 83, 0.52);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+  margin-bottom: 90px;
+  width: 800px;
+}
+.SecureTheVault > h2 {
+  background-color: rgba(79, 22, 103, 0.509);
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  height: 42;
+  color: black;
+}
+#CombinationLock > img {
+  background-color: rgb(58, 17, 83, 0.52);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 500px;
+  align-items: center;
+  margin-bottom: 90px;
+  width: 600px;
+}
+nav a.active {
+  color: rgb(67, 157, 167);
+}
