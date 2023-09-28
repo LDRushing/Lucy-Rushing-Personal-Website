@@ -38,6 +38,7 @@ h1 {
 
   footer {
     box-sizing: border-box;
+    margin-top: 100px;
     position: fixed;
     padding: 16px;
     bottom: 0;
@@ -243,35 +244,25 @@ nav a.active {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
 }
-#GRID {
-  margin-top: 90px;
-  width: 100%; height: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #0d4c2483;
-  border-radius: 15px;
-  padding: 10px;
+#GRID {margin-top: 90px; width: 100%; height: 100%; display: grid;
+      grid-template-columns: auto auto auto; background-color: #0d4c2483;
+      border-radius: 15px; padding: 10px;
 }
-form {
-  display: grid;
-  margin-top: 35px;
-  box-sizing: content-box;
-  border-radius: 15px;
-  width: 270px;
-  border: solid #006d1da5 5px;
-  padding: 20px;
-}
+.ThankYou {margin-bottom: 200px; margin-left: 45%; font-size: xx-large;}
+form {display: flex; justify-content: space-between; flex-direction: column; 
+  margin-top: 35px; box-sizing: content-box; border-radius: 15px; 
+  width: 270px; border: solid #006d1da5 5px; padding: 20px;}
 .HowCanIHelpYou > label { 
   margin-top: 100px;
-}
-#ThankYou {
-  margin-top: 70px;
-  font-size: xx-large;
-  text-align: center;
 }
 .contactfield {
  margin-bottom: 15px;
 }
 .helpinput {
- height: 500px;
+ height: 100px;
 }
+@media (max-width: 768px)
+  .example-class{
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
