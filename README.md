@@ -2,4 +2,6 @@
 
 Creative, Analytical, Positive
 
-hello
+Hello! 
+
+Today will be a good day!
