@@ -4,4 +4,4 @@ Creative, Analytical, Positive
 
 Hello! 
 
-Today is a good day!
+Today will be a good day!
